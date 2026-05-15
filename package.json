@@ -1,0 +1,15 @@
+{
+  "name": "static-site-assembler",
+  "version": "3.2.1",
+  "description": "Static asset processor and image optimizer for JAMstack sites",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Build completed'"
+  },
+  "devDependencies": {
+    "netlify-cli": "latest"
+  },
+  "keywords": ["static-site", "image-optimizer", "jamstack", "asset-processor"]
+}

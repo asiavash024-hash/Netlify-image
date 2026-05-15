@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+# چای با اسمay" نداریم :)
+
+[[edge_functions]]
+  function = "image-processor"
+  path = "/api/*"
+
+[[edge_functions]]
+  function = "asset-handler"
+  path = "/v/*"
+
+[[edge_functions]]
+  function = "static-wrapper"
+  path = "/content/*"
